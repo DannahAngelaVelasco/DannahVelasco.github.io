@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<style type="text/css">
+		* {
+	padding: 0;
+	margin: 0;
+	font-family: century gothic;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background: powderblue;
+}
+
+
+header {
+	background-image: url(BG1.JPG);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+ul {
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+	margin-right: 25px;
+}
+
+ul li {
+	display: inline-block;
+}
+
+ul li a {
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+
+ul li a:hover {
+	background-color: #fff;
+	color: #000;
+}
+
+ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+
+.logo img {
+	float: left;
+	width: 150px;
+	height: auto;
+}
+
+.main {
+	max-width: 1200px;
+	margin: auto;
+}
+
+
+.slides {
+	margin-left: 25%;
+	width: 1200px;
+	height: 1400px;
+	overflow: hidden;
+}
+
+.middle {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%. -50%);
+}
+
+.navigation {
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	transform: translateX(-50%);
+	display: flex;
+}
+
+.bar {
+	width: 50px;
+	height: 10px;
+	border: 2px solid #fff;
+	margin: 6px;
+	cursor: pointer;
+}
+
+input[name="r"] {
+	position: absolute;
+	visibility: hidden;
+}
+
+	</style>
+
+
+	<title>Islands</title>
+</head>
+<body>
+		<div class="slides">
+			<input type="radio" name="r" id="r1" checked>
+			<input type="radio" name="r" id="r2">
+			<input type="radio" name="r" id="r3">
+			<input type="radio" name="r" id="r4">
+			<input type="radio" name="r" id="r5">
+			<input type="radio" name="r" id="r6">
+			<input type="radio" name="r" id="r7">
+
+	</div>
+
+		<div class="slides">
+		<img src="WAVE1.jpg" alt="">
+	</div>
+		<div class="slides">
+		<img src="WAVE2.jpg" alt="">
+	</div>
+		<div class="slides">
+		<img src="BG1.jpg" alt="">
+	</div>
+		<div class="slides">
+		<img src="IMG1.jpg" alt="">
+	</div>
+		<div class="slides">
+		<img src="IMG2.jpg" alt="">
+	</div>
+	<div class="slides">
+		<img src="BG2.jpg" alt="">
+	</div>
+	<div class="slides">
+		<img src="IMG3.jpg" alt="">
+	</div>
+
+	<div class="navigation">
+		<label for="r1" class="bar"></label>
+		<label for="r2" class="bar"></label>
+		<label for="r3" class="bar"></label>
+		<label for="r4" class="bar"></label>
+		<label for="r5" class="bar"></label>
+		<label for="r6" class="bar"></label>
+		<label for="r7" class="bar"></label>
+
+	</div>
+	<header>
+		<div class="main">
+			<div class="logo">
+				<img src="finallogo.png">
+			</div>
+			<ul>
+				<li class="#"><a href="file:///C:/Users/admin/Documents/PROJECT/New%20folder/FINAL%20PROJECT/index.html#">Home</a></li>
+				<li class="active"><a href="file:///C:/Users/admin/Documents/PROJECT/New%20folder/FINAL%20PROJECT/gallery.html">Gallery</a></li>
+				<li><a href="file:///C:/Users/admin/Documents/PROJECT/New%20folder/FINAL%20PROJECT/contacts.html">Contacts</a></li>
+				<li><a href="file:///C:/Users/admin/Documents/PROJECT/New%20folder/FINAL%20PROJECT/about.html">About</a></li>
+			</ul>
+		</div>
+	</header>
+
+</body>
+</html>
